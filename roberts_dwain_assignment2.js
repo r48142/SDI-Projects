@@ -20,5 +20,18 @@ console.log("If I win money at Maryland Live then I will Play again.");
 console.log("I bet " + dollarsBet + "at the casino.");
 console.log("I won " + dollarswon + "at The casino.");
 
+//Procedure
+var didIwin = function(lookatchips) {
+    
+    if  (lookatchips === true)
+    {
+     console.log("I just won," +casino name);
+    }
+     else
+    {
+       console.log("I have to try another time.");
+       }
+};       
+       
 
 
