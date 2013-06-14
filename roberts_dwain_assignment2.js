@@ -95,4 +95,18 @@ var gamesplayed = function(numberofgames,gametypes ) {
 
 };
 
+//Outputs
+console.log("If I win money at Maryland Live then I will Play again.");
+console.log("I bet " + dollarsBet + "at the casino.");
+console.log("I won " + dollarswon + "at The casino.");
+
+
+
+
+
+
+//Finish
+
+
+
 
