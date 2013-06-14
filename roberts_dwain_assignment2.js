@@ -33,5 +33,66 @@ var didIwin = function(lookatchips) {
        }
 };       
        
+//Boolean Function
+var haveWinningHand = function(cards are good,play hand) {
+if  (cardsAregood === true || (cards are good && playhand === true) );
+{
+console.log("Keep playing the game.");
+}
+else
+{
+  console.log ("Move to a different game.");
+  }
+  return playhand;
+};
+
+
+
+
+//Number Function
+var moneywon = function(dollarswontoday) {
+
+    for (var dollars = 20; dollars <= dollarswontoday; dollars = dollars + 1) {
+
+      if (dollars < dollarswontoday) {
+        console.log("I just won" + dollars + " playing poker.")
+
+      } else {
+        console.log("Go and cashOut.")
+
+      }
+    }
+    return dollarswontoday;
+
+};
+
+
+
+//String Function
+ var Tryagain = function(spendmoney, getchips) {
+
+    var moneyleft = "I want to play again so I " + spendmoney + " and I " + getchips + " so I can continue to play poker!";
+
+    return Moneyleft; 
+
+
+
+};
+
+//Array Function
+var gamesplayed = function(numberofgames,gametypes ) {
+
+    var games = numberofgames;
+    var addgame = gametype ("SlotMachines.")
+
+    while (numberofgames > gamestypes.length ) {
+
+      console.log("I have " + games + " left to try and play.");
+
+      runs--;
+    }
+    return gametypes;
+
+};
 
 
