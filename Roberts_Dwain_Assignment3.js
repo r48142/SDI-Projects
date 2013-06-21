@@ -1,5 +1,5 @@
 alert("JavaScript works!");
-// Author: Dwain Roberts
+// Author: Dwain Roberts Jr.
 // SDI 1306
 // June 20, 2013
 // Project 3 Extension of Casino Games Story
@@ -57,6 +57,7 @@ var didIwin = {
 // Method Procedure  (Project 2 Code)          
             
             
+
 var didIwin = function(lookatchips) {
     
     if  (lookatchips === true)
