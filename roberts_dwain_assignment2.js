@@ -1,7 +1,7 @@
 // Author: Dwain Roberts
-// SDI 1306
-// June 13, 2013
-// Project 2 Story about my visit to my favorite casino 
+// SDI 1307
+// July 18, 2013
+// Project 2 Story about a day at the Fair.
 
 //Start
 
@@ -10,102 +10,110 @@
 //Variables
 
 
-var casinoname = "I need to win money at Maryland Live";
-var casinogames = ["Roulette", "Black Jack", "Poker"];
-var dollarslost = 300;
-var dollarsBet = 300;
-var dollarswon = 600;
+var carnivalName = "Louisiana State Fair";
+var carnivalGames = ["Darts", "BottleRings", "HammerDrop"];
+var cash = 200;
 
-console.log("If I win money at Maryland Live then I will Play again.");
-console.log("I bet " + dollarsBet + "at the casino.");
-console.log("I won " + dollarswon + "at The casino.");
+console.log("The whole family went to the " + carnivalName + "today.");
+console.log("I wanted to play" + carnivalGames + "before we left.");
+console.log("I have about " + cash + "to spend.");
+
 
 //Procedure
-var didIwin = function(lookatchips) {
+var prizesWon = function(getHighscore) {
     
-    if  (lookatchips === true)
+    if (getHighscore === true)
     {
-     console.log("I just won," +casino name);
+     console.log("I just won a huge prize at the" + carnivalName + ".");
     }
      else
     {
-       console.log("I have to try another time.");
+       console.log("I didn't win this time.");
        }
-};       
+};
+    prizeswon(getHighscore);
        
+
+
 //Boolean Function
-var haveWinningHand = function(cards are good,play hand) {
-if  (cardsAregood === true || (cards are good && playhand === true) );
+var winStreak = function(scoreIshigh,playAgain) {
+if (scoreIshigh === true || (scoreIshigh && playAgain === true) )
 {
-console.log("Keep playing the game.");
-}
-else
-{
-  console.log ("Move to a different game.");
+console.log("My score is high, so I will stay at this game.");
+} else {
+  
+  console.log ("I should try a different carnival game.");
   }
-  return playhand;
+  return playAgain;
 };
 
+Winstreak(scoreIshigh,playAgain);
 
 
 
 //Number Function
-var moneywon = function(dollarswontoday) {
+var ticketsWon = function(ticketsWontoday) {
 
-    for (var dollars = 20; dollars <= dollarswontoday; dollars = dollars + 1) {
+  for (var tickets = 30; tickets <= ticketsWontoday; tickets = tickets + 10) {
 
-      if (dollars < dollarswontoday) {
-        console.log("I just won" + dollars + " playing poker.")
+      if (tickets < ticketsWontoday) {
+        console.log("I just won" + tickets + " from playing games today.");
 
       } else {
-        console.log("Go and cashOut.")
+        console.log("I am going to cash in the tickets I have left.");
 
       }
     }
-    return dollarswontoday;
+    return ticketswontoday;
 
 };
+ticketsWon(ticketsWontoday);
+
 
 
 
 //String Function
- var Tryagain = function(spendmoney, getchips) {
+ var newGame = function(payCash,getTickets) {
 
-    var moneyleft = "I want to play again so I " + spendmoney + " and I " + getchips + " so I can continue to play poker!";
+    var cashLeft = "I want to play a new game so I " + payCash + " and I " + getTickets + " so I can play another game!";
 
-    return Moneyleft; 
-
+    return cashLeft;
 
 
 };
 
+newGame(paycash,getTickets);
+
 //Array Function
 var gamesplayed = function(numberofgames,gametypes ) {
 
-    var games = numberofgames;
-    var addgame = gametype ("SlotMachines.")
+    var fairGames = numberofgames;
+    var extraGame = gametype ("Water Gun Race.");
 
-    while (numberofgames > gamestypes.length ) {
+    while (numberofgames > gametype.length ) {
 
-      console.log("I have " + games + " left to try and play.");
+      console.log("I had " + fairgames + " left to play.");
 
-      runs--;
+      
     }
     return gametypes;
 
 };
 
-//Outputs
-console.log("If I win money at Maryland Live then I will Play again.");
-console.log("I bet " + dollarsBet + "at the casino.");
-console.log("I won " + dollarswon + "at The casino.");
+gamesplayed(numberOfgames,gameTypes);
 
+//Outputs
+console.log(" I played the" +carnivalGames[1]+ "six times.");
+console.log("I won the huge prizes at the" + carnivalName + "today.");
+console.log("I left the fair with more than " + tickets + "tickets at The casino.");
+console.log(" We almost played every game in the" + carnivalName + ".");
 
 
 
 
 
 //Finish
+  
 
 
 
