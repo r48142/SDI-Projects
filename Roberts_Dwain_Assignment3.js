@@ -1,146 +1,75 @@
-alert("JavaScript works!");
-// Author: Dwain Roberts Jr.
-// SDI 1306
-// June 20, 2013
-// Project 3 Extension of Casino Games Story
+
+
+//The Company Basketball Tournament
+
+
 
 //Start
 
 
-// JSON
-var GameNames = {
-    "Games":   [
+//JSON Data
+var teamNames = {
+    "Teams":   [
       {
-        "Gamename": "Poker",
-        "CardGame": true,
-        "minimumbetindollars":20 
+        "Teamname": "Sharks",
+        "wonGame": true,
+        "rosterAmount":13
      
       }
       {
-        "Gamename": "BlackJack",
-        "CardGame": true,
-        "minbetindollars": 10
+        "Teamname": "Patriots",
+        "wonGame": true,
+        "rosterAmount": 10
      
       }
       {
-        "Gamename": "Roulette",
-        "CardGame": false,
-        "minimumbetindollars": 5
+        "Teamname": "Bears",
+        "wonGame": false,
+        "rosterAmount": 8
       }
     ]
 };
-// Global Variables
-var Play = "If the current hand is good I will play.";
-var casinos = ["Mirage", " Maryland Live", " Harrahs"];
-var DollarstoBet = 500
 
-};
-
+//Global Variables
+var court = "Ehret Gym"
+var gameTime = "Morning"
+var 
 
 
-// Object (Did I Win any money) 
-var didIwin = {
-
-    bet: "If the last hand was good.",
-    lookatchips: true,
-    Dollarsbet: 10,
-    Dollarswon: 100,
-    Casinos: [
-            "Mirage",
-            " Maryland Live",
-            " Harrahs"
-            ],
-    objectProperty: {
-            bet: "Im on a roll.",
-            game: "BlackJack"
-            },
-// Method Procedure  (Project 2 Code)          
-            
-            
-
-var didIwin = function(lookatchips) {
-    
-    if  (lookatchips === true)
-    {
-     console.log("I just won," +casino name);
-    }
-     else
-    {
-       console.log("I have to try another game.");
-       }
-};       
-       
-// Method Function   (Project 2 code)
-
-var haveWinningHand = function(cards are good,play hand) {
-if  (cardsAregood === true || (cards are good && playhand === true) );
-{
-console.log("Keep playing the game.");
-}
-else
-{
-  console.log ("Move to a different game.");
-  }
-  return playhand;
-};
-
-    },
-// Method Accessor
-    HaveWinninghand: function(){ 
-      var totalWon = this.dollarswon + this.dollarsWonYesterday;
-      return totalwinnings;
-    },
-
-
-// Method: Mutator
-    losegame:function(lostbet){ // Method: Mutator
-      this.foldedhand = lostbet;
-    }
+//Method:Mutator
+function Team(name) {
+  var name_ = name;
+ 
+  this.getName = function() {
+    return name_;
+  };
+ 
+  this.setName = function(name) {
+    name_ = name;
+  };
 }
 
-// Object howmuchDidIwin 
-var howmuchdidIwin = {
 
- var moneywon = function(dollarswontoday) {
+//Method:Function
 
-    for (var dollars = 500; dollars <= dollarswontoday; dollars = dollars + 1) {
+//Method:Boolean
 
-      if (dollars < dollarswontoday) {
-        console.log("I just won another" + dollars + "playing blackJack.")
+//Method:Accessor
 
-      } else {
-        console.log("Go and cashOut.")
+//Method:Procedure
 
-      }
-    }
-    return dollarswontoday;
+//Method:Object
+player=new Object();
+player.firstname="Dwain";
+player.lastname="Roberts";
+player.age=25;
+player.jerseycolor="red"; 
 
-};
+//Returned Values
 
+//Output
 
- var Tryagain = function(spendmoney, getchips) {
-
-    var moneyleft = "I want to play again so I " + spendmoney + " and I " + getchips + " so I can continue to play roulette!";
-
-    return Moneyleft; 
-
-var gamesplayed = function(numberofgames,gametypes ) {
-
-    var games = numberofgames;
-    var addgame = gametype ("SlotMachines.")
-
-    while (numberofgames > gamestypes.length ) {
-
-      console.log("I have " + games + " left to try and play.");
-
-      runs--;
-    }
-    return gametypes left;
-
-};
-
-
-  
+//Finish
 
 //Finish
   }
