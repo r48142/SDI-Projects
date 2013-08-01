@@ -78,5 +78,23 @@ changedNumber = Number(stringIsNum);
 };
 return changededNumber;
 };
+//Array Functions
+//array Find the smallest value in an array that is greater than a given number
+
+var SmallestValue = function(array, number)
+{
+var newArray = array;
+var nextNumber;
+newArray.sort();
+for (var i = 0; i < newArray.length; i++)
+{
+if (newArray[i] > number)
+{
+newNumber = newArray[i];
+break;
+}
+}
+return newNumber;
+};
 
 
