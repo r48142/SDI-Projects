@@ -55,5 +55,13 @@ myStrings[i] = r.toUpperCase() + j[1];
 newString = newString + myStrings[i] + " ";
 };  
 return newString;
+//Number Functions
+//number Format a number to use a specific number of decimal places, as for money: 2.1 → 2.10
 
+var DecimalPlace = function(number, decimals)
+var num = number;
+var dec = decimals;
+num = num.toFixed(dec);
+return num;
+};
 
