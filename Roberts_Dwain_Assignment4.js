@@ -64,4 +64,19 @@ var dec = decimals;
 num = num.toFixed(dec);
 return num;
 };
+//Given a string version of a number such as "42", return the value as an actual Number, such as 42.
+
+var stringNum = function(stringIsNum)
+{
+if(isNaN(stringIsNum))
+{
+changedNumber = "Not a number.";
+}
+else
+{
+changedNumber = Number(stringIsNum);
+};
+return changededNumber;
+};
+
 
