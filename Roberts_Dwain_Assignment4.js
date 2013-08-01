@@ -29,4 +29,16 @@ else
 {
 return false;
 };
+//Is the string a URL? (Does it start with http: or https:?)
+
+var URL = function(url)
+{  
+if (url.startsWith("http://") || url.startsWith("https://"))
+{
+return true;
+}
+else
+{
+return false;
 };
+
