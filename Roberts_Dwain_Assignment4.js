@@ -17,3 +17,16 @@ else
 {
 return false;
 };
+
+//Does a string follow an aaa@bbb.ccc pattern like an email address?
+var EmailAddress = function(address)
+{
+if (address.indexOf("@") < address.indexOf("."))
+{
+return true;
+}
+else
+{
+return false;
+};
+};
