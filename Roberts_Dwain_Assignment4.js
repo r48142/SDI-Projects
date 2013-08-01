@@ -41,4 +41,19 @@ else
 {
 return false;
 };
+//Title-case a string (split into words, then uppercase the first letter of each word)
+
+var TitleCase = function(string)
+{
+var myStrings = string.split(" ", -1);
+var newString = "";
+for (var i = 0; i < strings.length; i++)
+{
+var r = myStrings[i].charAt(0);
+var j = myStrings[i].split(r, 2);
+myStrings[i] = r.toUpperCase() + j[1];
+newString = newString + myStrings[i] + " ";
+};  
+return newString;
+
 
